@@ -1,0 +1,153 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.create-acc {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.create-acc h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.text-red {
+  color: #DD4A3D;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-container input{
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1.5px solid #CBCBCB;
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+.input-container input::placeholder {
+  font-size: 14px;
+  color: #919191;
+}
+
+.input-container input:hover {
+  border-color: grey;
+}
+
+.text {
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  color: #6C25FF;
+  background-color: #F7F8F9;
+  padding: 0px 2px 0px 2px;
+  font-size: 13px;
+  pointer-events: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 400;
+  color: #1D2226;
+}
+
+.radio-cont {
+  display: flex;
+  gap: 23px;
+  margin-top: 10px;
+}
+
+.horizontal {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.radio-btn {
+  width: 22px;
+  height: 22px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.radio-btn:hover {
+  cursor: pointer;
+}
+
+/* Hide the default checkbox */
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+/* Style the custom checkbox */
+.custom-radio .checkmark {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #919191;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  background-color: transparent;
+  transition: background-color 0.1s, border-color 0.1s;
+  cursor: pointer;
+}
+
+/* Style for checked state */
+.custom-radio input[type="radio"]:checked + .checkmark {
+  border-color: #6C25FF;
+}
+
+/* Style for the checkmark */
+.custom-radio input[type="radio"]:checked + .checkmark::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #6C25FF;
+}
+
+.signup {
+  width: 100%;
+  height: 46px;
+  color: #ffffff;
+  background-color: #6C25FF;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.signup:hover {
+  opacity: 0.9;
+}

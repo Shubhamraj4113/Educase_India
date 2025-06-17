@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 21px;
+  padding: 20px;
+}
+
+.home h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.home p {
+  font-size: 18px;
+  color: #1D2226;
+  line-height: 26px;
+  opacity: 0.6;
+  letter-spacing: 0;
+  padding-bottom: 19px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-btn {
+  height: 46px;
+  color: #FFFFFF;
+  background-color: #6C25FF;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.log-in-btn {
+  height: 46px;
+  color: #000000;
+  background-color: #6C25FF4B;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}

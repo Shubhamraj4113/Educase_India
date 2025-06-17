@@ -1,0 +1,77 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-bottom: 2px dashed #CBCBCB;
+}
+
+.top h1 {
+  margin: 0;
+  padding: 27px 15px 19px 15px;
+  height: 68px;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000007;
+  
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 76px 1fr;
+  height: 76px;
+  padding-left: 20px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.profile-icon {
+  width: 76px;
+}
+.camera-icon {
+  position: absolute;
+  bottom: 8px;
+  right: -4px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  gap: 6px;
+}
+
+.text-container h3 {
+  font-size: 15px/19px;
+  font-weight: 500;
+}
+
+.text-container p {
+  font-size: 14px/19px;
+  color: #1D2226;
+}
+
+h4 {
+  padding: 0px 18px 20px 20px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #1D2226;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.bottom {
+  color: #CBCBCB;
+  margin-bottom: 35px;
+}
