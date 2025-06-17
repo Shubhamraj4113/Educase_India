@@ -1,20 +1,20 @@
 
 Created with npm vite@latest, famework React, & language javaScript 
 
-#Setup
+# Setup
 npm install
 npm run dev
 npm install react-router-dom
 
 Open http://localhost:5173 in your browser.
 
-#Build
+# Build
 npm run build
 npm run preview
 
 used Navigate to switch between pages
 
-#Here are the images of the website
+# Here are the images of the website
 
 ![Screenshot 2025-06-18 030328](https://github.com/user-attachments/assets/af72a7fc-b756-482d-87b5-b80f691186d0)
 
