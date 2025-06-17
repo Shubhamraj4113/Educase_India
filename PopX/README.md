@@ -1,12 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Created with npm vite@latest, famework React, & language javaScript 
 
-Currently, two official plugins are available:
+#Setup
+npm install
+npm run dev
+npm install react-router-dom
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Open http://localhost:5173 in your browser.
 
-## Expanding the ESLint configuration
+#Build
+npm run build
+npm run preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+used Navigate to switch between pages
+
+#Here are the images of the website
+
+![Screenshot 2025-06-18 030328](https://github.com/user-attachments/assets/af72a7fc-b756-482d-87b5-b80f691186d0)
+
+![Screenshot 2025-06-18 030351](https://github.com/user-attachments/assets/d3aad851-8adf-4cd3-981a-62aecf9cd27d)
+
+![Screenshot 2025-06-18 030404](https://github.com/user-attachments/assets/f52e0231-5f3c-49d7-998e-853441f7575b)
+
+![Screenshot 2025-06-18 030435](https://github.com/user-attachments/assets/c2dd327d-d16e-47e8-a490-719d2b057f0a)
